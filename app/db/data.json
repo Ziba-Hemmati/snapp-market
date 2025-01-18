@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "url": "/images/cheese.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "پنیر لبنه نیم چرب دوشه هزار",
+      "weight": 400,
+      "unit": "گرم",
+      "discount": 30,
+      "original_price": 69800,
+      "final_price": 48860
+    },
+    {
+      "id": 2,
+      "url": "/images/sauce.jpg",
+      "installment": false,
+      "pack": "بسته 3 عددی",
+      "name": "سس گوجه‌فرنگی کاله",
+      "weight": 630,
+      "unit": "گرم",
+      "discount": 25,
+      "original_pric0e": 177000,
+      "final_price": 132750
+    },
+    {
+      "id": 3,
+      "url": "/images/chopper.jpg",
+      "installment": false,
+      "pack": "",
+      "name": "خردکن RFC1719 استیل رنه",
+      "weight": null,
+      "unit": "",
+      "discount": 35,
+      "original_price": 5135000,
+      "final_price": 3337750
+    },
+    {
+      "id": 4,
+      "url": "/images/yogurt.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "ماست همزده کم چرب پروبیوتیک سبو هراز",
+      "weight": 1.8,
+      "unit": "کیلوگرم",
+      "discount": 35,
+      "original_price": 139800,
+      "final_price": 90870
+    }
+  ]
+}

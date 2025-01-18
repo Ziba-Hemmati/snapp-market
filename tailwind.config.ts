@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "gray-150": "#373737",
+        "blue-50": "#f2f7ff",
+        "blue-500": "#2e4ff5",
+      },
+      backgroundImage: {
+        "hero-background": "url('/images/hero-background.jpg')",
       },
     },
   },
