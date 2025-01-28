@@ -9,6 +9,7 @@ const Products = () => {
       btn="مشاهده همه محصولات"
       header=""
       products={products}
+      pattern={false}
     />
   );
 };

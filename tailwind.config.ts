@@ -26,6 +26,7 @@ export default {
       },
       backgroundImage: {
         "hero-background": "url('/images/hero-background.jpg')",
+        "pattern-background": "url('/images/pattern.jpg')",
       },
     },
   },

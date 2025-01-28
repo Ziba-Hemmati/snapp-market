@@ -44,3 +44,19 @@ body {
 .swiper-button-disabled {
   opacity: 0 !important;
 }
+
+/* custom next image container */
+.imageContainer {
+  width: 100%;
+  min-width: 100%;
+  > span {
+    position: unset !important;
+  }
+  
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
