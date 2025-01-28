@@ -1,24 +1,15 @@
-"use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import ProductCard from "./ProductCard";
+import products from "../getData";
+import ProductsContainer from "./ProductsContainer";
 
-const Products = ({ items }: { items: Array<ProductProps> }) => {
+const Products = () => {
   return (
-    <div>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        {items.map((item) => (
-          <SwiperSlide  key={item.id} >
-            <ProductCard key={item.id} data={item} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <ProductsContainer
+      tag="تخفیف تا 50%"
+      title="سه‌شنبه‌های پرتخفیف"
+      btn="مشاهده همه محصولات"
+      header=""
+      products={products}
+    />
   );
 };
 
