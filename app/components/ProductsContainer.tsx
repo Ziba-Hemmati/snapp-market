@@ -10,7 +10,7 @@ const ProductsContainer = ({
   tag,
   title,
   btn,
-  header,
+  // header,
   products,
 }: ProductsContainerProps) => {
   return (
