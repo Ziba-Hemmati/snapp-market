@@ -16,5 +16,5 @@ let products: Array<ProductProps> = [];
 await getStaticProps()
   .then((data) => (products = data.objectData.products))
   .catch((err) => console.log(err));
-console.log(products, "$$$$$$$$$$$$$")
-export default products;
+
+  export default products;
