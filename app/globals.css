@@ -24,3 +24,23 @@ body {
   /* background: var(--background); */
   font-family: IRANSansXRegular, sans-serif, Arial, Helvetica;
 }
+
+/* swiper navigation styles */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #2347fb;
+  border-radius: 50%;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: white;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+}

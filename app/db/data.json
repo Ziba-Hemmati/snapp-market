@@ -21,7 +21,7 @@
       "weight": 630,
       "unit": "گرم",
       "discount": 25,
-      "original_pric0e": 177000,
+      "original_price": 177000,
       "final_price": 132750
     },
     {
@@ -47,6 +47,102 @@
       "discount": 35,
       "original_price": 139800,
       "final_price": 90870
+    },
+    {
+      "id": 5,
+      "url": "/images/eggs.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "تخم‌مرغ زرایکس پرایکس",
+      "weight": 20,
+      "unit": "عدد",
+      "discount": 17,
+      "original_price": 118400,
+      "final_price": 98272
+    },
+    {
+      "id": 6,
+      "url": "/images/fish.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "کنسرو ماهی تون در روغن کینوس",
+      "weight": 180,
+      "unit": "گرم",
+      "discount": 25,
+      "original_price": 87500,
+      "final_price": 65325
+    },
+    {
+      "id": 7,
+      "url": "/images/napkin.jpg",
+      "installment": false,
+      "pack": "بسته 3 عددی",
+      "name": "نوار بهداشتی بالدار بزرگ ضخیم کلاسیک بنفش مای لیدی",
+      "weight": 10,
+      "unit": "عدد",
+      "discount": 26,
+      "original_price": 120300,
+      "final_price": 89022
+    },
+    {
+      "id": 8,
+      "url": "/images/drink.jpg",
+      "installment": false,
+      "pack": "بسته 4 عددی",
+      "name": "ماالشعیر لیمویی باربیکن",
+      "weight": 330,
+      "unit": "میلی‌لیتر",
+      "discount": 40,
+      "original_price": 140000,
+      "final_price": 84000
+    },
+    {
+      "id": 9,
+      "url": "/images/noodelite.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "بسته 5 عدد نودل گوشت الیت",
+      "weight": 75,
+      "unit": "گرم",
+      "discount": 15,
+      "original_price": 90000,
+      "final_price": 76500
+    },
+    {
+      "id": 10,
+      "url": "/images/milk.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "شیر پرچرب مدت‌دار روزانه",
+      "weight": 1,
+      "unit": "لیتر",
+      "discount": 19,
+      "original_price": 48000,
+      "final_price": 38880
+    },
+    {
+      "id": 11,
+      "url": "/images/oil.jpg",
+      "installment": true,
+      "pack": "",
+      "name": "روغن سرخ کردنی مخلوط سلانترو",
+      "weight": 1.5,
+      "unit": "لیتر",
+      "discount": 35,
+      "original_price": 575000,
+      "final_price": 373750
+    },
+    {
+      "id": 12,
+      "url": "/images/shirt.jpg",
+      "installment": false,
+      "pack": "",
+      "name": "ست نیم تنه و شورت ورزشی زنانه سبز سایز XL کوزا",
+      "weight": null,
+      "unit": "",
+      "discount": 44,
+      "original_price": 336000,
+      "final_price": 188160
     }
   ]
 }

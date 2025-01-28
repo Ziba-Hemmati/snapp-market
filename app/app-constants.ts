@@ -12,6 +12,6 @@ export const APP_CONSTANTS = {
   },
   PRODUCTS_CONSTANTS: {
     installment_Purchase: "خرید اقساطی",
-    add: "افزودن به سبد خرید",
+    add: "افزودن به سبد",
   },
 };
