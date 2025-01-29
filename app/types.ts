@@ -16,5 +16,10 @@ type ProductsContainerProps = {
   title: string;
   btn: string;
   header: string;
-  products: Array<ProductProps>
+  products: Array<ProductProps>;
+  pattern: boolean;
+};
+
+type BannerProps = {
+  image: string;
 };
