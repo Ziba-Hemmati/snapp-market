@@ -1,10 +1,17 @@
 import {Separator} from "@/components/ui/separator";
 import Image from 'next/image';
 
+interface ContactUsData {
+    phone: string;
+    address: string;
+    email: string;
+    postalCode: string;
+}
+
 const Footer = () => {
 
-    const quickAccess = ["درباره ما", "وبلاگ", "قوانین", "استخدام", "گزارش مشکل", "حریم خصوصی", "تبلیغات در اسنپ مارکت هایپر", "معرفی فروشگاه‌های اسنپ مارکت", "هایپر"]
-    const contactUsData = {
+    const quickAccess: string[] = ["درباره ما", "وبلاگ", "قوانین", "استخدام", "گزارش مشکل", "حریم خصوصی", "تبلیغات در اسنپ مارکت هایپر", "معرفی فروشگاه‌های اسنپ مارکت", "هایپر"]
+    const contactUsData: ContactUsData = {
         phone: "02155554425",
         address: "خیابان ولیعصر بالاتر از اسفندیار خیابان سعیدی نبش کوچه مهردادپلاک۱ طبقه ۳",
         email: "info@snapp.market",
