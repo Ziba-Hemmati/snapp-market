@@ -14,7 +14,7 @@ export default {
         "gray-150": "#373737",
         "blue-50": "#f2f7ff",
         "blue-300": "#007aff",
-        "blue-500": "#2e4ff5",
+        "blue-500": "#2446f5",
         "blue-600": "#1c33b1",
         "blue-400": "#2e4cf5",
         "blue-700": "#1b31ad",
@@ -27,6 +27,9 @@ export default {
       backgroundImage: {
         "hero-background": "url('/images/hero-background.jpg')",
         "pattern-background": "url('/images/pattern.jpg')",
+      },
+      screens: {
+        xs: "320px",
       },
     },
   },
