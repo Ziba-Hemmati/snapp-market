@@ -4,7 +4,7 @@ export const APP_CONSTANTS = {
     user: "زیبا همتی",
     basket: "سبد خرید",
     buy: "خرید از",
-    hyper_star: "هایپراستار ارم 2",
+    hyper_star: "هایپراستار ارم ۲",
     change_store: "تغییر فروشگاه",
     time: "تحویل از امروز ساعت 11:00",
     categories: "دسته‌بندی‌ها",
